@@ -1,4 +1,4 @@
-import { Check, Github, Instagram, Linkedin, Mails, MapPin, Phone } from "lucide-react"
+import { Check, Download, Github, Instagram, Linkedin, Mails, MapPin, Phone } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -38,7 +38,7 @@ export function CardProfile({ className, ...props }: CardProps) {
             </a>
           </div>
           <div>
-            <a href="https://github.com/LopesA95" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <a href="https://github.com/Dev-Lops" target="_blank" rel="noopener noreferrer" title="GitHub">
               <Github />
             </a>
           </div>
@@ -62,9 +62,9 @@ export function CardProfile({ className, ...props }: CardProps) {
             <div className="flex items-center row-span-2 ">
               <Mails />
             </div>
-            <div className="col-span-2 text-start">
-              <Label>Email</Label>
-              <h3>Developesanderson@gmail.com</h3>
+            <div className="grid col-span-2 text-center">
+              <span>Email</span>
+              <strong className="text-xs">Developesanderson@gmail.com</strong>
             </div>
           </div>
           <Separator orientation="horizontal" className="w-[300px] mt-2" />
@@ -73,7 +73,7 @@ export function CardProfile({ className, ...props }: CardProps) {
             <div className="flex items-center row-span-2 ">
               <MapPin />
               </div>
-            <div className="col-span-2 items-stretch">
+            <div className="col-span-2 text-left">
               <Label>Localização</Label>
               <h3>Manaus - AM</h3>
             </div>
@@ -83,7 +83,7 @@ export function CardProfile({ className, ...props }: CardProps) {
       </CardContent>
       <CardFooter>
         <Button className="w-full">
-          <Check className="mr-2 h-4 w-4" /> Mark all as read
+          <Download className="mr-2 h-4 w-4" /> Download CV
         </Button>
       </CardFooter>
     </Card>
