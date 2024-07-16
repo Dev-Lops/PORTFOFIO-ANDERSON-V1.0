@@ -43,7 +43,10 @@ export function CardProfile({ className, ...props }: CardProps) {
             </a>
           </div>
         </div>
-        <div className=" bg:opacity-20 p-4 rounded-md">
+        <div className="bg:opacity-20 p-4 rounded-md">
+
+
+
           <div className="grid grid-rows-1 grid-flow-col ">
               <div className="flex items-center row-span-2 ">
                 <Phone />
@@ -51,7 +54,7 @@ export function CardProfile({ className, ...props }: CardProps) {
               <div className="col-span-2">
                 <Label>Phone</Label>
                 <h3>(92) 9 9492-1064</h3>
-              </div>
+            </div>
           </div>
           <Separator orientation="horizontal" className="w-[300px] mt-2" />
 
@@ -69,13 +72,13 @@ export function CardProfile({ className, ...props }: CardProps) {
           <div className="grid grid-rows-1 grid-flow-col gap-2 mt-2">
             <div className="flex items-center row-span-2 ">
               <MapPin />
+              </div>
             <div className="col-span-2 items-stretch">
               <Label>Localização</Label>
               <h3>Manaus - AM</h3>
             </div>
           </div>
           <Separator orientation="horizontal" className="w-[300px] mt-2" />
-
         </div>
       </CardContent>
       <CardFooter>
