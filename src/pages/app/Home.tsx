@@ -1,5 +1,5 @@
+import { CardAbout } from "@/components/CardAbout"
 import { CardProfile } from "@/components/CardProfile"
-import { CardStacks } from "@/components/CardStacks"
 import { Header } from "@/components/Header"
 
 export function Home(){
@@ -14,7 +14,7 @@ export function Home(){
               <CardProfile />
             </div>
             <div className="grid col-span-2 md:col-span-1">
-              <CardStacks />
+              <CardAbout/>
             </div>
           </div>
         </div>

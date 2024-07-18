@@ -18,15 +18,11 @@ export function Header() {
         <Separator orientation="vertical" className="h-6" />
 
         <nav className="flex items-center justify-between space-x-4 lg:space-x-6">
-          <NavLink to="/aboutme">
-            <Home className="h-4 w-4" />
-            Sobre
-          </NavLink>
           <NavLink to="/projects">
             <FolderKanban className="h-4 w-4" />
             Projetos
           </NavLink>
-          <NavLink to="/contact">
+          <NavLink to="/contacts">
             <Contact  className="h-4 w-4" />
             Contato
           </NavLink>
