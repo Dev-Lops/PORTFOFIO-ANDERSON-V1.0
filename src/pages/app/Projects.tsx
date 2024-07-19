@@ -1,4 +1,5 @@
 import { CardProjects } from "@/components/CardProjects"
+import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 
 export function Projects() {
@@ -12,6 +13,7 @@ export function Projects() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

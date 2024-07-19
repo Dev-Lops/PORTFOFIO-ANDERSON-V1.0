@@ -79,7 +79,7 @@ export function CardProfile({ className, ...props }: CardProps) {
       </CardContent>
       <CardFooter>
         <Button className="w-full">
-          <Download className="mr-2 h-4 w-4" /> Download CV
+          <a href="../../../../public/curriculo_anderson.pdf" title="Baixar curriculo"><Download className="mr-2 h-4 w-4" /> Download CV</a>
         </Button>
       </CardFooter>
     </Card>
